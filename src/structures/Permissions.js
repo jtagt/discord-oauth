@@ -1,7 +1,7 @@
-const { permissions, implicit } = require('../static/permissions.js');
-const { resolvePermission } = require('../resolvers/permission.js');
+import { permissions, implicit } from '../static/permissions.js';
+import { resolvePermission } from '../resolvers/permission.js';
 
-class Permissions {
+export class Permissions {
     constructor(permissions = 0, implicit = false, resolve = true) {
         this.bitfield = resolve ? resolvePermission(permissions) : permissions;
         this.useImplicit = implicit;
@@ -57,5 +57,3 @@ class Permissions {
         this.bitfield &= ~resolvePermission(permissions);
     }
 }
-
-module.exports = { Permissions };
