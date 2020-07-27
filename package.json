@@ -12,7 +12,11 @@
   "deprecated": false,
   "description": "An easy to use library to handle Discord OAuth2",
   "devDependencies": {
-    "express": "^4.16.4"
+    "@types/node": "^14.0.26",
+    "express": "^4.16.4",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   },
   "homepage": "https://gitlab.com/sdfsdfsdf1234/discord-oauth#README",
   "keywords": [
@@ -37,6 +41,7 @@
     "url": "git+https://gitlab.com/sdfsdfsdf1234/discord-oauth.git"
   },
   "scripts": {
+    "build": "tsc",
     "docs": "jsdoc -c jsdoc.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
