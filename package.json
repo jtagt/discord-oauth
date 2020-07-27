@@ -1,0 +1,44 @@
+{
+  "author": {
+    "name": "sdf"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/sdfsdfsdf1234/discord-oauth/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  },
+  "deprecated": false,
+  "description": "An easy to use library to handle Discord OAuth2",
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "homepage": "https://gitlab.com/sdfsdfsdf1234/discord-oauth#README",
+  "keywords": [
+    "discord",
+    "oauth",
+    "oauth2",
+    "discord",
+    "oauth2",
+    "sign",
+    "in",
+    "with",
+    "discord",
+    "authorize",
+    "discord",
+    "oauth"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "name": "discord-oauth",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sdfsdfsdf1234/discord-oauth.git"
+  },
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}

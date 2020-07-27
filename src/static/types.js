@@ -1,0 +1,5 @@
+const BOT_INVITE = 0;
+const AUTHORIZATION = 1;
+const IMPLICIT = 2;
+
+module.exports = { BOT_INVITE, AUTHORIZATION, IMPLICIT };
