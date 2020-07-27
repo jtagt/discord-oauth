@@ -10,7 +10,7 @@ export type ClientOptions = {
     state?: boolean,
     verifyScopes?: boolean,
     bot?: {
-        permissions?: Permissions,
+        permissions?: Permissions | number,
         guildId?: string,
     },
     webhook?: {
@@ -48,7 +48,7 @@ export class Client {
             returnUrl: options.returnUrl || '/',
             state: options.state || false,
             verifyScopes: options.verifyScopes || false,
-            permissions: null,
+            permissions: null as null | number,
             guild: null as null | string,
             channel: null as null | string,
         };
