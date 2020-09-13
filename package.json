@@ -7,7 +7,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "node-fetch": "^2.2.0"
+    "node-fetch": "^2.6.1"
   },
   "deprecated": false,
   "description": "An easy to use library to handle Discord OAuth2",
